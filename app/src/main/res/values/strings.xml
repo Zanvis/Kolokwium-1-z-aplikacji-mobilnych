@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">L06_Piwowarski_62024_Kol1</string>
+    <string name="txtFirstNameap">First Name:</string>
+    <string name="FirstNamePlaceHolder">First Name</string>
+    <string name="txtLastNameap">Last Name:</string>
+    <string name="LastNamePlaceHolderap">Last Name</string>
+    <string name="btnImages">SEE IMAGES</string>
+    <string name="btnCalulator">COMPLEX NUMBER CALCULATOR</string>
+    <string name="btnStartGameap">START GAME</string>
+    <string name="btnMainActivityap">MAIN ACTIVITY</string>
+    <string name="txtCalculator">Complex Numbers Calculator</string>
+    <string-array name="SpinnerOperatorap">
+        <item>*</item>
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+    <string name="btnCalculate">Calculate</string>
+    <string name="txtResult">Result =</string>
+</resources>

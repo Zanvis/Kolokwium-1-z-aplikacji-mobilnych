@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">L06_Piwowarski_62024_Kol1</string>
+    <string name="txtFirstNameap">Pierwsze imię:</string>
+    <string name="FirstNamePlaceHolder">Pierwsze imię</string>
+    <string name="txtLastNameap">Nazwisko:</string>
+    <string name="LastNamePlaceHolderap">Nazwisko</string>
+    <string name="btnImages">ZOBACZ ZDJĘCIA</string>
+    <string name="btnCalulator">KOMPLEKSOWY KALKULATOR LICZBOWY</string>
+    <string name="btnStartGameap">ZACZNIJ GRĘ</string>
+    <string name="btnMainActivityap">GŁÓWNA AKTYWNOŚĆ</string>
+    <string name="txtCalculator">Kompleksowy Klakulator Liczbowy</string>
+    <string name="btnCalculate">Policz</string>
+    <string name="txtResult">Wynik =</string>
+</resources>

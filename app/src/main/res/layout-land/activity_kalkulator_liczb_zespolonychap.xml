@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KalkulatorLiczbZespolonychap">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Antoni Piwowarski"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="91dp"
+        android:text="@string/txtFirstNameap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtLastNameap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/editFirstNameKalkap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:text="TextView"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/editLastNameKalkap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:text="TextView"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
+        app:layout_constraintStart_toEndOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCalculator"
+        tools:layout_editor_absoluteX="396dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="76dp"
+        android:text="z1 ="
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <EditText
+        android:id="@+id/editz2secondap"
+        android:layout_width="82dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="52dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editz2firstap"
+        app:layout_constraintStart_toEndOf="@+id/editz2firstap" />
+
+    <EditText
+        android:id="@+id/editz2firstap"
+        android:layout_width="95dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="i"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editz2secondap"
+        app:layout_constraintStart_toEndOf="@+id/editz2secondap" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="i"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editz1secondap"
+        app:layout_constraintStart_toEndOf="@+id/editz1secondap" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="+"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editz1firstap"
+        app:layout_constraintStart_toEndOf="@+id/editz1firstap" />
+
+    <EditText
+        android:id="@+id/editz1firstap"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="28dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView11"
+        app:layout_constraintStart_toEndOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="+"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editz2firstap"
+        app:layout_constraintStart_toEndOf="@+id/editz2firstap" />
+
+    <EditText
+        android:id="@+id/editz1secondap"
+        android:layout_width="80dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="52dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/editz1firstap" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:text="z2 ="
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Spinner
+        android:id="@+id/spinnerOperatorap"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="52dp"
+        android:entries="@array/SpinnerOperatorap"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:onClick="calculateap"
+        android:text="@string/btnCalculate"
+        app:layout_constraintBaseline_toBaselineOf="@+id/spinnerOperatorap"
+        app:layout_constraintStart_toEndOf="@+id/spinnerOperatorap" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/txtResult"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerOperatorap" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="+"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editn1ap"
+        app:layout_constraintStart_toEndOf="@+id/editn1ap" />
+
+    <EditText
+        android:id="@+id/editn2ap"
+        android:layout_width="87dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="12dp"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView18"
+        app:layout_constraintStart_toEndOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="i"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editn2ap"
+        app:layout_constraintStart_toEndOf="@+id/editn2ap" />
+
+    <EditText
+        android:id="@+id/editn1ap"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView17"
+        app:layout_constraintStart_toEndOf="@+id/textView17" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="20dp"
+        android:onClick="MoveToMainActivityap"
+        android:text="@string/btnMainActivityap"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalculate" />
+</androidx.constraintlayout.widget.ConstraintLayout>
